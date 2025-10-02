@@ -10,4 +10,43 @@ html, body {
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.5;
+
+/* searchbar.css */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+  border-color: #004080;
+  box-shadow: 0 0 5px rgba(0, 64, 128, 0.4);
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #004080;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-button:hover {
+  background: #0060b0;
 }
