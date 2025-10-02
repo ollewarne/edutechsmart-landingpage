@@ -1,7 +1,12 @@
+/* ===== Reset ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* ===== Root Colors ===== */
+:root {
   --carolina-blue: #73BBE0;
   --celestial-blue: #4C9DCA;
   --blue-violet: #9041D2;
@@ -9,57 +14,30 @@
   --white: #FFFFFF;
 }
 
+/* ===== Bas för sidan ===== */
 html, body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;  /* Brödtext */
   background-color: #f9f9f9;
   color: #333;
-  line-height: 1.5;
-}
-/* searchbar.css */
-.search-form {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
+  line-height: 1.6;
 }
 
-.search-input {
-  flex: 1;
-  padding: 10px 14px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s, box-shadow 0.3s;
+/* ===== Rubriker ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gloock", Georgia, serif;  /* Rubriker */
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--charcoal);
 }
 
-.search-input:focus {
-  border-color: #004080;
-  box-shadow: 0 0 5px rgba(0, 64, 128, 0.4);
-  outline: none;
+/* ===== Länkar (generellt) ===== */
+a {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: var(--carolina-blue);
+  text-decoration: none;
 }
-
-.search-button {
-  padding: 10px 16px;
-  border: none;
-  border-radius: 8px;
-  background: #004080;
-  color: #fff;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.search-button:hover {
-  background: #0060b0;
-}
-
-main img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; 
-  border-radius: 12px;
+a:hover {
+  color: var(--celestial-blue);
+  text-decoration: underline;
 }
