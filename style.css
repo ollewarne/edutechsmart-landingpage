@@ -10,7 +10,7 @@ html, body {
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.5;
-
+}
 /* searchbar.css */
 .search-form {
   display: flex;
@@ -49,4 +49,11 @@ html, body {
 
 .search-button:hover {
   background: #0060b0;
+}
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 12px;
 }
