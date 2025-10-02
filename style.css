@@ -11,3 +11,10 @@ html, body {
   color: #333;
   line-height: 1.5;
 }
+:root {
+  --carolina-blue: #73BBE0;
+  --celestial-blue: #4C9DCA;
+  --blue-violet: #9041D2;
+  --charcoal: #324047;
+  --white: #FFFFFF;
+}
