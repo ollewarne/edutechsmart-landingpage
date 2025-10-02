@@ -15,4 +15,8 @@ A pitch for a new landingpage for EduTechSmart.
 - Modern colorscheme.
 - Darkmode.
 
+### 
+
 ### Colors
+![color palette for the page](./images/colorpalette.png)
+
