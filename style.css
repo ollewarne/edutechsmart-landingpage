@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --carolina-blue: #73BBE0;
+  --celestial-blue: #4C9DCA;
+  --blue-violet: #9041D2;
+  --charcoal: #324047;
+  --white: #FFFFFF;
 }
 
 html, body {
@@ -50,6 +55,7 @@ html, body {
 .search-button:hover {
   background: #0060b0;
 }
+
 main img {
   max-width: 100%;
   height: auto;
