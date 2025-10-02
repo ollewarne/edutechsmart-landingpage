@@ -15,7 +15,9 @@ A pitch for a new landingpage for EduTechSmart.
 - Modern colorscheme.
 - Darkmode.
 
-### 
+### Mobile layout
+This is a rough first draft for how the page will look on mobile.
+![draft for a mobile design](./images/mobile-design.png)
 
 ### Colors
 ![color palette for the page](./images/colorpalette.png)
