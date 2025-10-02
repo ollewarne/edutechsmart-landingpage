@@ -1,20 +1,43 @@
+/* ===== Reset ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.5;
-}
+/* ===== Root Colors ===== */
 :root {
   --carolina-blue: #73BBE0;
   --celestial-blue: #4C9DCA;
   --blue-violet: #9041D2;
   --charcoal: #324047;
   --white: #FFFFFF;
+}
+
+/* ===== Bas för sidan ===== */
+html, body {
+  height: 100%;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;  /* Brödtext */
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Rubriker ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gloock", Georgia, serif;  /* Rubriker */
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--charcoal);
+}
+
+/* ===== Länkar (generellt) ===== */
+a {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: var(--carolina-blue);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--celestial-blue);
+  text-decoration: underline;
 }
