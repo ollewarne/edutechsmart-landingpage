@@ -1,0 +1,47 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#nav-menu {
+  grid-column: 3/3;
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  background-color: var(--charcoal);
+  gap: 1em;
+}
+
+#nav-menu.open {
+  position: absolute;
+  display: flex;
+  grid-column: 1 / 4;
+  grid-row: 2;
+  z-index: 1;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 7em;
+  border-bottom: 2px solid var(--blue-violet);
+  padding: 1em;
+}
+
+#nav-menu.open > a:hover {
+  padding-left: 1em;
+  border-left: solid 3px var(--blue-violet);
+  transition: .3s;
+}
+
+#menu-button {
+  width: 30px;
+  top: 5px;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+#hamburger {
+  cursor: pointer;
+  grid-column: 3/3;
+  grid-row: 1;
+  align-self: flex-end;
+  justify-self: flex-end;
+}

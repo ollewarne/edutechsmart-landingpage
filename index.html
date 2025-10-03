@@ -8,11 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Gloock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style-footer-delzar.css">
+    <link rel="stylesheet" href="style-navbar.css">
     <link rel="stylesheet" href="style-company-intro.css">
 </head>
 <body>
   <header>
-    <form id="searchForm" class="search-form">
+      <!--<form id="searchForm" class="search-form">
       <input
       type="text"
       id="searchInput"
@@ -20,7 +21,11 @@
       placeholder="Sök..."
       />
       <button type="submit" class="search-button">🔍</button>
-    </form>
+</form> -->
+    <div id="hamburger">
+        <img id="menu-button" src="./images/hamburger-button.svg" alt="">
+    </div>
+    <nav-bar></nav-bar>
    </header>
 
 
@@ -32,6 +37,7 @@
   
     <script type="module" src="components/script-company-intro.js"></script>
     <script type="module" src="components/script-footer-delzar.js"></script>
+    <script type="module" src="components/navbar-script.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
