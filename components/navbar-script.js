@@ -12,3 +12,19 @@ class Navbar extends HTMLElement {
   }
 }
 customElements.define('nav-bar', Navbar);
+
+const menu = document.getElementById("nav-menu");
+const hamburgerButton = document.getElementById("hamburger");
+const menuButton = document.getElementById("menu-button")
+let openStatus = false;
+
+hamburgerButton.addEventListener('click', (e) => {
+    if (!openStatus) {
+        menuButton.src = "./images/close-button.svg";
+        openStatus = true;
+    } else {
+        menuButton.src = "./images/hamburger-button.svg";
+        openStatus = false;
+    }
+    menu.classList.toggle("open");
+});
