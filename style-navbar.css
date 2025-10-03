@@ -1,0 +1,10 @@
+#nav-menu {
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  background-color: var(--charcoal);
+}
+
+#nav-menu.open {
+  display: flex;
+}
