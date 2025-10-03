@@ -1,0 +1,52 @@
+.feature-study-anywhere {
+    margin-top: 5vh;
+}
+
+.studyAnywhere {
+    display: grid;
+    grid-template: repeat(3, 1fr) 0.5fr / repeat(5, 1fr);
+    width: 100%;
+    height: 35vh;
+    padding: 0 0.7em;
+}
+
+.studyAnywhere img {
+    grid-area: 1 / 1 / span 3 / span 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: var(--carolina-blue);
+    opacity: 0.8;
+}
+
+.studyAnywhereHeader {
+    grid-area: 2 / 1 / span 3 / span 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.studyAnywhereHeader h3 {
+    font-size: 2rem;
+    padding-right: 0.2em;
+}
+
+.studyAnywhereText {
+    border-top: 1px solid #324047;
+    border-bottom: 1px solid var(--charcoal);
+    padding: 1rem 1rem;
+}
+
+.studyAnywhereText h2 {
+    margin-bottom: 0.5rem;
+    color: var(--blue-violet);
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+#study {
+    font-size: 2.5rem;
+}

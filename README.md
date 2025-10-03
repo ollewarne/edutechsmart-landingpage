@@ -17,7 +17,7 @@ This insight allows us to create a page that is not only modern and technically 
 ## Design
 
 - Built for mobile first.
-- Modern effects such as glass.
+- Modern effects.
 - Soft and sleek borders.
 - Modern colorscheme.
 - Darkmode.
