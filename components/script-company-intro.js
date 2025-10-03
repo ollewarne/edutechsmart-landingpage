@@ -4,7 +4,10 @@ class CompanyIntro extends HTMLElement {
         <section class="feature-company-intro">
             <section class="companyIntro">
                 <img class="companyIntroImg" src="images/EduTechSmart.jpg" alt="Picture illustrating healthcare">
-                <h3 class="companyIntroHeader">Gamified<br>Healthcare Education</h3>
+                <div class="companyIntroDiv">
+                    <h3 class="companyIntroHeader">Gamified<br>Healthcare Education</h3>
+                </div>
+                <div class="HeaderBackground1"></div>
             </section>
     
             <section class="companyIntroText">
