@@ -3,12 +3,10 @@ class StudyAnywhere extends HTMLElement {
     this.innerHTML = `
             <section class="study-anywhere">
             <div class="studyAnywhere">
-                <!-- <div class="img"></div> -->
                 <img src="images/tablet_educatesmart-300x200.png" alt="">
                 <div class="studyAnywhereHeader">
-                    <h3>Study</h3>
+                    <h3 id="study">Study</h3>
                     <h3>Anytime, Anywhere</h3>
-                    <!-- <h3>Anywhere</h3>  -->
                     <h3>and on Any Platform</h3>
                 </div>
             </div>
