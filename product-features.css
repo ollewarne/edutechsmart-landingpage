@@ -24,11 +24,6 @@
   font-size: 1rem;
 }
 
-.text-blocks .text-block:nth-child(3) ul{
-    text-align: left;
-    list-style-type: disc;
-}
-
 @media (min-width: 640px) {
   .text-blocks {
     max-width: 600px;
