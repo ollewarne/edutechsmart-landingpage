@@ -1,44 +1,56 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edutechsmart – Landing</title>
-  <link rel="stylesheet" href="styles.css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTechSmart Landingpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Gloock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-footer-delzar.css">
+    <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="style-company-intro.css">
+    <link rel="stylesheet" href="style-study-anywhere.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1 class="site-title">Edutechsmart</h1>
-
-    <button id="themeToggle" class="theme-toggle" aria-label="Växla tema">
-      <span id="themeIcon" aria-hidden="true">🖥️</span>
-      <span id="themeLabel">System</span>
-    </button>
-  </header>
-   
-  <main class="container">
-    <form id="searchForm" class="search-form" role="search" aria-label="Sök på sidan">
-      <label class="visually-hidden" for="searchInput">Sök</label>
-      <input
+  <header>
+    <form id="searchForm" class="search-form">
+        <input
+        type="text"
         id="searchInput"
         class="search-input"
-        name="q"
-        type="search"
-        placeholder="Sök…"
-        autocomplete="off"
-      />
-      <button class="search-button" type="submit" aria-label="Utför sökning">🔍</button>
+        placeholder="Sök..."
+        />
+        <button type="submit" class="search-button">🔍</button>
     </form>
+    <div id="hamburger">
+        <img id="menu-button" src="./images/hamburger-button.svg" alt="">
+    </div>
+    <nav-bar></nav-bar>
+   </header>
 
-    <!-- Demo-innehåll -->
-    <section class="demo">
-      <p>
-        Skriv något i sökrutan och tryck Enter – just nu loggas värdet i konsolen.
-        Koppla funktionen i <code>script.js</code> till din datakälla eller filtrering.
-      </p>
-    </section>
-  </main>
 
-  <script src="script.js"></script>
+    <main>        
+        <company-intro></company-intro>
+        <study-anywhere></study-anywhere>
+    </main>
+
+
+   <footer>
+     <a href="" class="button">Let´s talk ➔</a>
+   </footer>
+
+    <app-footer></app-footer>
+  
+    <script type="module" src="components/script-company-intro.js"></script>
+    <script type="module" src="components/script-study-anywhere.js"></script>
+
+
+    <script type="module" src="components/script-footer-delzar.js"></script>
+    <script type="module" src="components/navbar-script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
+
