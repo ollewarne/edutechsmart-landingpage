@@ -77,6 +77,7 @@
 .companyIntro {
     background-image: url(images/image_EduTechSmart1-2048x590.jpg.jpeg);
     background-size: cover;
+    height: 45vh;
 }   
 
 .companyIntroHeader {
