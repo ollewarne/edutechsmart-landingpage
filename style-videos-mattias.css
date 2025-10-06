@@ -4,6 +4,7 @@
   gap: 50px;                   /* mellanrum mellan videorna */
   margin: 20px auto;           /* lite luft runt */
   max-width: 2500px;           /* maxbredd på raden */
+  padding-bottom: 5%;
 }
 
 .video-box {
