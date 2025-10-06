@@ -74,7 +74,7 @@ class Testimonials extends HTMLElement {
         </section>`;
     }
 }
-customElements.define('testimonials', Testimonials);
+customElements.define('testimonials-html', Testimonials);
 
 let slideIndex = 0;
 const slides = document.querySelectorAll(".slide");
