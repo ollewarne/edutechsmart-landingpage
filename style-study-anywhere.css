@@ -38,13 +38,12 @@
 }
 
 .studyAnywhereText {
-    border-top: 1px solid #324047;
-    border-bottom: 1px solid var(--charcoal);
     padding: 1rem 1rem;
 }
 
 .studyAnywhereText h2 {
     margin-bottom: 0.5rem;
+    margin-top: 5%;
     color: var(--blue-violet);
     font-size: 1.3rem;
     font-weight: bolder;
@@ -91,8 +90,6 @@
 }
 
 .studyAnywhereText {
-    /* border-top: 1px solid #324047; */
-    border-bottom: 1px solid var(--charcoal);
     padding: 1rem 1rem;
 }
 
@@ -107,7 +104,6 @@
 }
 
 .studyAnywhereText p {
-    padding-bottom: 5%;
     width: 60%;
     margin: auto;
     font-size: 1.2rem;
