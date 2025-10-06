@@ -44,12 +44,13 @@ a:hover {
 
 
 body, main {
-  background-color: white;
+  background: linear-gradient(#E6E9EC, #fff);
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark-mode, main.dark-mode {
+  background: none;
   background-color: #121212;
   color: #f0f0f0;
 }
