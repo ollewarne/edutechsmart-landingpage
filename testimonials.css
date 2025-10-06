@@ -1,7 +1,8 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gallery {
@@ -27,7 +28,7 @@ body {
 }
 
 .name p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .profile img {
@@ -55,6 +56,7 @@ body {
     border-radius: 50%;
     user-select: none;
     color: white;
+    margin: 5px;
 }
 .prev { left: 10px}
 
@@ -93,11 +95,11 @@ body {
   }
 
   .name p {
-    font-size: 1.75rem;
+    font-size: 1.1rem;
   }
 
   .quote {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 
@@ -113,11 +115,11 @@ body {
   }
 
   .name p {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .quote {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .row {
@@ -137,14 +139,14 @@ body {
   }
 
   .name p {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   .quote {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .row {
     gap: 30px;
   }
-}
+} 

@@ -1,3 +1,5 @@
+/* ---------- MOBILE FIRST ---------- */
+
 .companyIntro {
     display: grid;
     grid-template: repeat(8, 1fr) / repeat(11, 1fr);
@@ -24,6 +26,10 @@
     font-size: 2rem;
     font-weight: 1000;
     padding-left: 0.5em;
+}
+
+.companyIntroHeader span {
+    display: block;
 }
 
 .HeaderBackground1 {
@@ -53,3 +59,50 @@
     font-size: 1rem;
     line-height: 1.4;
 }
+
+
+
+
+/* ---------- WEB PAGE ---------- */
+
+@media (min-width: 600px) {
+
+.companyIntroImg {
+    display: none;
+}
+
+.companyIntro {
+    background-image: url(images/image_EduTechSmart1-2048x590.jpg.jpeg);
+    background-size: cover;
+}   
+
+.companyIntroHeader {
+    font-size: 2.5rem;
+    word-spacing: 0.7rem;
+}
+
+.companyIntroHeader span {
+    display: inline;
+}
+
+.companyIntroText {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.companyIntroText p {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.companyIntroText h2 {
+    padding-top: 5%;
+    font-size: 2rem;
+}
+
+} 

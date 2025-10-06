@@ -6,6 +6,10 @@ header {
   padding-right: 1em;
 }
 
+.header-image {
+  padding-left: 1em;
+}
+
 #nav-menu {
   display: none;
   flex-direction: column;
@@ -19,7 +23,7 @@ header {
   top: 5%;
   width: 100%;
   display: flex;
-  z-index: 1;
+  z-index: 2;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 7em;
   border-bottom: 2px solid var(--blue-violet);
@@ -43,11 +47,10 @@ header {
   justify-self: flex-end;
 }
 
-header > form {
-  display: flex;
-  height:50%;
-  align-self: center;
-  padding-left: 1em;
+@media (width <= 500px) {
+  .header-image {
+    width: 100%;
+  }
 }
 
 @media (width >= 640px) {
