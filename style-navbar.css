@@ -20,13 +20,15 @@ header {
 #nav-menu.open {
   position: absolute;
   top: 5%;
+  right: 0;
   width: 100%;
   display: flex;
   z-index: 2;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 7em;
-  border-bottom: 2px solid var(--blue-violet);
+  border-bottom: 4px solid var(--blue-violet);
   padding: 1em;
+  border-top: 1px solid black;
 }
 
 #menu-button {
