@@ -1,4 +1,5 @@
 # EduTechSmart landingpage
+Click [HERE](https://ollewarne.github.io/edutechsmart-landingpage/) to view the page!
 
 ## Why we are the team for the job
 A pitch for a new landingpage for EduTechSmart.
