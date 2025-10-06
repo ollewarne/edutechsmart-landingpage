@@ -15,22 +15,29 @@ border-color: #324047;
 }
 */
 
+.footer-button {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;  /* knappen hamnar till höger */
+  background: #2f4048;
+  padding: 20px;
+  color: #fff;  
+  justify-content: center;
+}
+
 .button {
   padding: 14px 28px; 
   font-size: 18px; 
   font-weight: bold; 
   color: #fff; 
-  background: linear-gradient(90deg, #0078ff, #00c6ff); /* Bakgrunden är en blå gradient från mörk till ljus */
+  background: linear-gradient(90deg, #0078ff, #00c6ff);
   border: none; 
   border-radius: 8px;
-  cursor: pointer; /* Muspekaren blir en hand när man hovrar */
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15); /* Skugga under knappen: lite nedåt och mjuk */
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animation när knappen flyttas eller skuggan ändras */
-  text-align: center; 
-  position: absolute;
-  margin-left: 1500px;
-  margin-top: 80px;
-  margin-right: auto;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+
 }
 
 .button:hover {
