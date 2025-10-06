@@ -48,6 +48,13 @@ header {
   justify-self: flex-end;
 }
 
+#darkModeToggle {
+  cursor: pointer;
+  align-self: center;
+  grid-column: 3/3;
+  grid-row: 1;
+}
+
 @media (width < 640px) {
   .header-image {
     width: 100%;

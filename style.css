@@ -19,8 +19,6 @@
 html, body {
   height: 100%;
   font-family: "Nunito", Arial, Helvetica, sans-serif;  /* Brödtext */
-  background-color: #f9f9f9;
-  color: #333;
   line-height: 1.6;
   scroll-behavior: smooth;
 }
@@ -42,10 +40,19 @@ a {
 a:hover {
   color: var(--celestial-blue);
   text-decoration: underline;
-
 }
 
 
-main {
+body, main {
   background: linear-gradient(#E6E9EC, #fff);
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+body.dark-mode, main.dark-mode {
+  background: none;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+
