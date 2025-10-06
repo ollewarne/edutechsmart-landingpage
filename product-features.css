@@ -49,8 +49,9 @@
     font-size: 1.5rem;
   }
 
+  .text-block ul,
   .text-block p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -64,9 +65,7 @@
     font-size: 1.75rem;
   }
 
-  .text-block p {
-    font-size: 1.1rem;
-  }
+
 }
 
 @media (min-width: 1024px) {
@@ -76,11 +75,4 @@
     gap: 30px;
   }
 
-  .text-block h3 {
-    font-size: 2rem;
-  }
-
-  .text-block p {
-    font-size: 1.2rem;
-  }
 }
