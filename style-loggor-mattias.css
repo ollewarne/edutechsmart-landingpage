@@ -11,20 +11,25 @@ border: groove;
 border-color: #324047;
 }
 .button {
-
-  display: block;              /* Gör knappen till block för att kunna centreras */
-  width: fit-content;          /* Gör så att knappen bara är så bred som den behöver vara */
-  margin: 0 auto;              /* Auto-vänster och höger = centrerar */
-  padding: 5px 10px;
-  background-color: #73bbe0;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
-
-
+  padding: 14px 28px; 
+  font-size: 18px; 
+  font-weight: bold; 
+  color: #fff; 
+  background: linear-gradient(90deg, #0078ff, #00c6ff); /* Bakgrunden är en blå gradient från mörk till ljus */
+  border: none; 
+  border-radius: 8px;
+  cursor: pointer; /* Muspekaren blir en hand när man hovrar */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15); /* Skugga under knappen: lite nedåt och mjuk */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animation när knappen flyttas eller skuggan ändras */
+  text-align: center; 
 }
+
 .button:hover {
-  background-color: #4c9dca; /* lite mörkare vid hover */
+  transform: translateY(-3px); /* När musen hovrar: flytta knappen uppåt 3px */
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); /* Skuggan blir större och mörkare vid hover */
 }
 
+.button:active {
+  transform: translateY(0); /* När knappen klickas: flytta tillbaka till ursprungsläge */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Skuggan blir mindre, knappen ser nedtryckt ut */
+}
