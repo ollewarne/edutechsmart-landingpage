@@ -1,0 +1,38 @@
+class ProductFeatures extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <section class="text-blocks">
+        <div class="text-block">
+        <h3>NO CLASSROOM NEEDED</h3>
+        <p>EducateSmartTM is our dedicated platform, offering healthcare companies essential educational tools to drive and maintain unparalleled quality standards.</p>
+
+        <p>EduTechSmart plays a crucial role in reshaping the educational landscape with our innovative approach.</p>
+
+        <p>educational methodology is designed for easy and convenient access, seamlessly incorporating a diverse range of features including gamified scenario-based training, video content, 3D animation, and modern assessment techniques, all enhanced by AI.</p>
+        </div>
+
+        <div class="text-block">
+        <h3>DEVELOPED BY EXPERTS, VERIFIED BY EXPERTS</h3>
+        <p>EduTechSmart draws from decades of expertise spanning healthcare, IT, gaming, and education, all enriched by cutting-edge AI advancements. Our courses are crafted by seasoned professionals well-versed in industry standards, regulations, and guidelines. We prioritize alignment with local norms and best practices.</p>
+        </div>
+
+        <div class="text-block">
+        <h3>BENEFITS</h3>
+        <ul>
+            <li>Cost-efficient</li>
+            <li>User-friendly planning</li>
+            <li>Repeatable modules</li>
+            <li>24/7 accessibility</li>
+            <li>Scenario based</li>
+            <li>Localized in >20 languages</li>
+            <li>Customizable characters and environments</li>
+            <li>Seamless access on PC/MAC, mobile, or tablet</li>
+            <li>Content not found in typical online courses</li>
+            <li>Eco-friendly approach</li>
+        </ul>
+        <p>Education with us is affordable, effective, and accessible everywhere and on every device!</p>
+        </div>
+        </section>`;
+    }
+}
+customElements.define('product-features', ProductFeatures);
