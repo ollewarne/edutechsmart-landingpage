@@ -1,7 +1,12 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.testimonials{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials h3 {
+    display: flex;
+    justify-content: center;
+
 }
 
 .gallery {
@@ -147,4 +152,4 @@ body {
   .row {
     gap: 30px;
   }
-}
+} 
