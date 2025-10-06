@@ -5,13 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Edutechsmart – Landing</title>
   <link rel="stylesheet" href="styles.css" />
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-footer-delzar.css">
+    <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="style-company-intro.css">
+    <link rel="stylesheet" href="style-study-anywhere.css">
+    <link rel="stylesheet" href="style-loggor-mattias.css">
+     <link rel="stylesheet" href="style-videos-mattias.css">
+     <link rel="stylesheet" href="darkmode.css">
 </head>
 <body>
   <header class="site-header">
+    
+    <img class="header-image" src="./images/RetinaLogo_EduTech_gradient_light.png" alt="">
+    <div id="hamburger">
+        <img id="menu-button" src="./images/hamburger-button.svg" alt="">
+
+    </div>
+
     <h1 class="site-title">Edutechsmart</h1>
 
     <button id="themeToggle" class="theme-toggle" aria-label="Växla tema">
-      <span id="themeIcon" aria-hidden="true">🖥️</span>
+      <span id="themeIcon" aria-hidden="true">🌙</span>
       <span id="themeLabel">System</span>
     </button>
   </header>
@@ -38,6 +53,13 @@
       </p>
     </section>
   </main>
+  
+    <script type="module" src="components/script-company-intro.js"></script>
+    <script type="module" src="components/script-study-anywhere.js"></script>
+    <script type="module" src="components/darkmode-component.js"></script>
+
+    <script type="module" src="components/script-footer-delzar.js"></script>
+    <script type="module" src="components/navbar-script.js"></script>
 
   <script src="script.js"></script>
 </body>

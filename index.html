@@ -13,16 +13,37 @@
     <link rel="stylesheet" href="style-company-intro.css">
     <link rel="stylesheet" href="style-study-anywhere.css">
     <link rel="stylesheet" href="style-loggor-mattias.css">
+
      <link rel="stylesheet" href="style-videos-mattias.css">
+
+     <link rel="stylesheet" href="darkmode.css">
+
 
 </head>
 <body>
   <header>
+   
+    
     <img class="header-image" src="./images/RetinaLogo_EduTech_gradient_light.png" alt="">
     <div id="hamburger">
         <img id="menu-button" src="./images/hamburger-button.svg" alt="">
+
     </div>
-    <nav-bar></nav-bar>
+   
+    
+     <button id="themeToggle" class="theme-toggle" aria-label="Växla tema">
+      <span id="themeIcon" aria-hidden="true">🖥️</span>
+      <span id="themeLabel">System</span>
+    </button>
+
+   <nav-bar></nav-bar> 
+
+   
+    <nav>
+        <darkmode></darkmode>
+    </nav>
+
+   
    </header>
 
 
@@ -49,7 +70,7 @@
     <script type="module" src="components/script-company-intro.js"></script>
     <script type="module" src="components/script-study-anywhere.js"></script>
 
-
+    <script type="module" src="components/darkmode-component.js"></script>
     <script type="module" src="components/script-footer-delzar.js"></script>
     <script type="module" src="components/navbar-script.js"></script>
     <script src="script.js"></script>

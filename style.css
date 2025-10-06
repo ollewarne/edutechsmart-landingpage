@@ -15,6 +15,11 @@
   --white: #FFFFFF;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not(.dark):not(.light) {
+    color-scheme: dark;
+  }
+}
 /* ===== Bas för sidan ===== */
 html, body {
   height: 100%;
