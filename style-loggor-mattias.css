@@ -37,9 +37,3 @@ border-color: #324047;
   transform: translateY(0); /* När knappen klickas: flytta tillbaka till ursprungsläge */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Skuggan blir mindre, knappen ser nedtryckt ut */
 }
-.logga {
-position: absolute;
-margin-right: auto;
-margin-left: 100px;
-display: flex;
-}
