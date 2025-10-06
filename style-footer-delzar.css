@@ -1,0 +1,107 @@
+/* ===== Footer ===== */
+.site-footer {
+  --divider-weak: color-mix(in srgb, var(--white) 12%, transparent);
+  --stroke-weak:  color-mix(in srgb, var(--white) 18%, transparent);
+
+  background: var(--charcoal);
+  color: var(--white);
+  padding: 32px 16px;
+}
+
+/* Grid */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 16px;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-items: center;      
+  text-align: center;       
+}
+
+/* Positioner */
+.del1 { grid-area: 1 / 8 / 4 / 10; }
+.del2 { grid-area: 1 / 5 / 4 / 7; }
+.del3 { grid-area: 1 / 2 / 4 / 4; }
+
+.site-footer h3 {
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: var(--white);
+}
+
+.site-footer p { margin: 0; line-height: 1.6; }
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.site-footer a {
+  color: var(--carolina-blue);
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: var(--celestial-blue);
+  text-decoration: underline;
+}
+
+/* Social (inne i .del2) */
+.del2 .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid color-mix(in srgb, var(--white) 12%, transparent);
+}
+
+.del2 .social a {
+  width: 44px;
+  height: 44px;
+  /* border: 1px solid var(--stroke-weak, rgba(255,255,255,.18)); */
+  border-radius: 0;       
+  overflow: hidden;      
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Bilden för knappen */
+.del2 .social a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* hover */
+.del2 .social a:hover,
+.del2 .social a:focus-visible {
+  border-color: var(--carolina-blue);
+  /* background-color: color-mix(in srgb, var(--carolina-blue) 18%, transparent); */
+  transform: translateY(-2px) scale(1.04);
+}
+
+
+/* klick-feedback */
+.del2 .social a:active {
+  transform: scale(.98);
+}
+
+
+/* Responsiv */
+@media (prefers-reduced-motion: reduce) {
+  .del2 .social a { transition: none; }
+}
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: 1fr; gap: 20px; }
+  .del1, .del2, .del3 { grid-area: auto / auto / auto / auto; }
+}
