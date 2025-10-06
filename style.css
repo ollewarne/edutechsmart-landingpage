@@ -1,3 +1,4 @@
+
 /* ===== Reset ===== */
 * {
   margin: 0;
@@ -40,4 +41,5 @@ a {
 a:hover {
   color: var(--celestial-blue);
   text-decoration: underline;
+
 }
