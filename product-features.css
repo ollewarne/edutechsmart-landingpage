@@ -1,14 +1,14 @@
 .text-blocks {
   display: grid;
   grid-template-columns: 1fr; 
-  gap: 16px;
-  max-width: 375px;
+  gap: 375;
+  max-width: auto;
   margin: 0 auto;
   padding: 16px;
 }
 
 .text-block {
-  background: grey;
+  /* background: grey; */
   border-radius: 8px;
   padding: 16px;
   text-align: left;
@@ -34,7 +34,7 @@
   }
 
   .text-block p {
-    font-size: 1.125rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -49,13 +49,13 @@
   }
 
   .text-block p {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
 
 @media (min-width: 1024px) {
   .text-blocks {
-    max-width: 900px;
+    max-width: fit-content;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
@@ -65,6 +65,6 @@
   }
 
   .text-block p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
