@@ -10,7 +10,7 @@ class Testimonials extends HTMLElement {
                             <p>Din & Min Omsorg<p> <!-- h3 instead of p. Måste i så fall ändra css .name p? -->
                             </div>
                             <div class="profile">
-                            <img src="/images/01_Din-o-Min-Omsorg.jpeg" alt="two ladies smiling">
+                            <img src="images/01_Din-o-Min-Omsorg.jpeg" alt="two ladies smiling">
                             </div>
                         </div>
                         <p class="quote">“The courses are really good, saves time and studies can be made anywhere.”</p>
@@ -23,7 +23,7 @@ class Testimonials extends HTMLElement {
                             <p>Strategic Advisor</p>
                             </div>
                             <div class="profile">
-                            <img src="/images/02_EgilStrunke.jpeg" alt="portrait of Egil Struke">
+                            <img src="images/02_EgilStrunke.jpeg" alt="portrait of Egil Struke">
                             </div>
                         </div>
                         <p class="quote">“From a business point of view, this game-engine based education combined with AI technology in a SaaS platform is brilliant.”</p>
