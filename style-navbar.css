@@ -13,7 +13,6 @@ header {
 #nav-menu {
   display: none;
   flex-direction: column;
-  width: 100vw;
   background-color: var(--charcoal);
   gap: 1em;
 }
@@ -47,7 +46,7 @@ header {
   justify-self: flex-end;
 }
 
-@media (width <= 500px) {
+@media (width < 640px) {
   .header-image {
     width: 100%;
   }
