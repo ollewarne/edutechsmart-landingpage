@@ -1,12 +1,8 @@
 .testimonials{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-.testimonials h3 {
-    display: flex;
-    justify-content: center;
-
+    align-items: center;
 }
 
 .gallery {
@@ -32,7 +28,7 @@
 }
 
 .name p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .profile img {
@@ -60,6 +56,7 @@
     border-radius: 50%;
     user-select: none;
     color: white;
+    margin: 5px;
 }
 .prev { left: 10px}
 
@@ -98,11 +95,11 @@
   }
 
   .name p {
-    font-size: 1.75rem;
+    font-size: 1.1rem;
   }
 
   .quote {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 
@@ -118,11 +115,11 @@
   }
 
   .name p {
-    font-size: 2rem;
+    font-size: 1.25rem;
   }
 
   .quote {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .row {
@@ -142,11 +139,11 @@
   }
 
   .name p {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   .quote {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .row {
