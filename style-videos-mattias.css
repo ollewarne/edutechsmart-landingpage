@@ -30,11 +30,11 @@
 .videos h2 {
     margin-bottom: 0.5rem;
     color: var(--celestial-blue);
-    font-size: 2rem;
-    font-weight: bolder;
+    font-size: 3.5rem;
+    font-weight: 800;
     font-family: Nunito;
     padding-top: 10%;
-}
+} 
 
 .videos p {
   font-size: 1.2rem;

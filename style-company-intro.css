@@ -79,7 +79,7 @@
 }   
 
 .companyIntroHeader {
-    font-size: 3rem;
+    font-size: 4rem;
     word-spacing: 0.7rem;
     text-transform: uppercase;
 }
@@ -100,13 +100,15 @@
 .companyIntroText p {
     width: 60%;
     margin: auto;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-size: 1.2rem;
 }
 
 .companyIntroText h2 {
     padding-top: 5%;
-    font-size: 2rem;
+    padding-bottom: 2%;
+    font-size: 3.5rem;
+    font-weight: 800;
 }
 
 } 
