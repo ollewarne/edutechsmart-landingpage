@@ -5,7 +5,7 @@ class CompanyIntro extends HTMLElement {
             <section class="companyIntro">
                 <img class="companyIntroImg" src="images/EduTechSmart.jpg" alt="Picture illustrating healthcare">
                 <div class="companyIntroDiv">
-                    <h3 class="companyIntroHeader"><span>Gamified</span> Healthcare Education</h3>
+                    <h3 id="colorHeader" class="companyIntroHeader"><span>Gamified</span> Healthcare Education</h3>
                 </div>
                 <div class="HeaderBackground1"></div>
             </section>
