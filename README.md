@@ -28,17 +28,13 @@ This is a rough first draft for how the page will look on mobile.
 <img src="./images/mobile-design.png" width="30%">
 
 ### Colors
-Below are the colors we chose to use for the design.  
+
+| Color Name | Hex Code |
+|------------|----------|
+| Dark       | `#324047` |
+| Dark blue  | `#4C9DCA` |
+| Light blue | `#73BBE0` |
+| Accent     | `#9041D2` |
+  
+Below is a picture of the colors we chose to use for the design.  
 ![color palette for the page](./images/colorpalette.png)
-
-**Dark Slate**  
-<span style="display:inline-block;width:20px;height:20px;background-color:#324047;border:1px solid #ccc;margin-right:10px;"></span> `#324047`
-
-**Sky Blue**  
-<span style="display:inline-block;width:20px;height:20px;background-color:#4C9DCA;border:1px solid #ccc;margin-right:10px;"></span> `#4C9DCA`
-
-**Light Blue**  
-<span style="display:inline-block;width:20px;height:20px;background-color:#73BBE0;border:1px solid #ccc;margin-right:10px;"></span> `#73BBE0`
-
-**Purple**  
-<span style="display:inline-block;width:20px;height:20px;background-color:#9041D2;border:1px solid #ccc;margin-right:10px;"></span> `#9041D2`
