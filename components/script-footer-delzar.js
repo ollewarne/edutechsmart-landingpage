@@ -25,10 +25,12 @@ class AppFooter extends HTMLElement {
           </a>
           <a aria-label="Instagram" href="https://www.instagram.com/edutechsmart" target="_blank" rel="noopener">
             <img src="images/icons8-instagram-48.png" alt="Instagram">
-          </a>
-          <a aria-label="Facebook" href="#" target="_blank" rel="noopener">
-            <img src="images/icons8-facebook-48.png" alt="Facebook">
-          </a>
+      <a aria-label="YouTube"
+        href="https://www.youtube.com/@EduTechSmart"
+        target="_blank" rel="noopener noreferrer">
+        <img src="images/icons8-youtube-48.png" alt="YouTube">
+      </a>
+
       </div>
     </div>
   </div>
