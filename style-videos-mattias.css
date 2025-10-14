@@ -2,7 +2,6 @@
   display: flex;               /* lägger allt i rad */
   justify-content: center;     /* centrera alla videor */
   gap: 50px;                   /* mellanrum mellan videorna */
-  margin: 20px auto;           /* lite luft runt */
   max-width: 2500px;           /* maxbredd på raden */
   padding-bottom: 5%;
 }
