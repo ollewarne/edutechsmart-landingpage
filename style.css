@@ -54,5 +54,9 @@ body.dark-mode, main.dark-mode {
   background-color: #121212;
   color: #f0f0f0;
 }
+body.dark-mode h3,
+main.dark-mode h3 {
+  color: #fff;
+}
 
 
