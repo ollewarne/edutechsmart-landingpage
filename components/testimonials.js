@@ -66,6 +66,19 @@ class Testimonials extends HTMLElement {
                         </div>
                         <p class="quote">“It's essential that our employess hasknowledge about CPR. This can save the lives of guests and collegues.”</p>
                     </div>
+                
+                    <div class="slide">
+                        <div class="row">
+                            <div class="name">
+                            <p>Ulrika Jönsson, STIL Assistans</p>
+                            <p>Supervisor Partner and Resource Manager<p>
+                            </div>
+                            <div class="profile">
+                            <img src="images/06_Ulrika.jpeg" alt="Portrait of Ulrika">
+                            </div>
+                        </div>
+                        <p class="quote">“We can train our staff in a way that is both effective and motivating”</p>
+                    </div>
 
             <button class="prev">&#10094;</button> <!-- Jag vill helst ha touch i 375px mobil vy och ta bort knapparna men vet inte hur?-->
             <button class="next">&#10095;</button>
