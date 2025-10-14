@@ -1,3 +1,19 @@
+
+/* === Fonts i footer === */
+.site-footer {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.site-footer h5,
+.site-footer h6 {
+  font-family: "Gloock", Georgia, serif; 
+  font-weight: 400;
+}
+
 /* ===== Footer ===== */
 .site-footer {
   --divider-weak: color-mix(in srgb, var(--white) 12%, transparent);
